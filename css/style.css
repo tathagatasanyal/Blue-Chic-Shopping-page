@@ -51,12 +51,7 @@ section {
 body{
   background-color: rgba(0, 0, 0, 0.712);
 }
-body.active{
-  --white-color:#111;
-  --black-color:#fff;
-  --light-color:rgba(255,255,255,.3);
-  background:#222;
-}
+
 
 header.active{
   position: fixed;
@@ -122,12 +117,13 @@ header.active{
 
 .header .navbar a {
   font-size: 1.7rem;
-  color: rgb(218, 218, 218);
+  font-weight: bold;
+  color: rgb(252, 92, 44);
   margin: 0 1rem;
 }
 
 .header .navbar a:hover {
-  color: orange;
+  color: rgb(252, 215, 7);
   letter-spacing: 2px;
 }
 
