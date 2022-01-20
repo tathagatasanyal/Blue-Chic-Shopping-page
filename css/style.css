@@ -8,7 +8,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
@@ -649,8 +649,8 @@ header.active{
   padding: 2rem;
   border-radius: .5rem;
   border: 0.1rem solid rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(156, 145, 145, 0.425);
+          box-shadow: 0 0.5rem 1rem rgba(156, 145, 145, 0.425);
   text-align: center;
 }
 
@@ -673,6 +673,7 @@ header.active{
   font-size: 1.5rem;
   line-height: 2;
   color: rgb(194, 193, 193);
+  text-decoration: none;
 }
 
 .contact .row {
@@ -724,7 +725,7 @@ header.active{
   padding: 1rem 1.2rem;
   font-size: 1.6rem;
   color: #130f40;
-  text-transform: none;
+  
   margin: .7rem 0;
 }
 
@@ -820,12 +821,13 @@ header.active{
   padding-top: 2rem;
   border-top: 0.1rem solid rgba(255, 255, 255, 0.3);
   text-align: center;
-  color: #666;
+  color: rgb(177, 169, 169);
   font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.884);
 }
 
 .footer .credit span {
-  color: #eb4d4b;
+  color: orange;
 }
 
 @media (max-width: 991px) {
