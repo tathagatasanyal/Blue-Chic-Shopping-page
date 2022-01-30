@@ -632,6 +632,19 @@ header.active{
   color: rgb(182, 181, 181);
 }
 
+.deal1 .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  text-align: center;
+  border:.1rem white;
+  background:var(--white-color);
+  border-radius: .5rem;
+  padding:1rem;
+}
+
+
 
 .contact .icons-container {
   display: -ms-grid;
